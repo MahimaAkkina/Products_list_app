@@ -3,36 +3,19 @@
 ## Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+   - Open Visual Studio.
+   - Go to File > Clone Repository.
+   - Enter the repository URL and choose the directory to clone into.
 
 2. **Import Database**
-   - Open MySQL and create a database named `products_list`.
+   - Use xamp server or similar
+   - Create a database named `products_list` in your localhost phpmyadmin.
    - Import the `products.sql` file to the database.
-     ```bash
-     mysql -u root -p products_list < products.sql
-     ```
 
 3. **Place Product Images**
    - Copy the `products` folder containing product images to the project root directory.
 
-4. **Configure Database Connection**
-   - Ensure your MySQL credentials are correct in the `config.php` file:
-     ```php
-     $conn = mysqli_connect("localhost", "root", "", "products_list");
-     ```
-
-5. **Run the Application**
+4. **Run the Application**
    - Open your browser and navigate to:
-     ```url
-     http://localhost/<repository-directory>/index.php
-     ```
+      url : http://localhost/Products_list_app/index.php
 
-## Output Video
-- Check the `output_video.mp4` file for a demonstration of the application's functionality.
-
----
-
-Adjust the repository URL and directory names as needed.

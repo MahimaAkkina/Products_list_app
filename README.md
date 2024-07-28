@@ -6,6 +6,7 @@
    - Open Visual Studio.
    - Go to File > Clone Repository.
    - Enter the repository URL and choose the directory to clone into.
+   - Repository url : https://github.com/MahimaAkkina/Products_list_app.git
 
 2. **Import Database**
    - Use xamp server or similar

@@ -20,3 +20,5 @@
    - Open your browser and navigate to:
       url : http://localhost/Products_list_app/index.php
 
+5. **Output Video**
+   - Check the output video (Output Video.mp4) for a sample of the app working.

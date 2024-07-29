@@ -1,0 +1,19 @@
+{
+    "name": "mahim/products_list_app",
+    "description": "A product listing application with PHP and MySQL",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahim\\ProductsListApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MahimaAkkina",
+            "email": "mahimaakkina@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
